@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Clone Code') {
             steps {
-                git 'https://github.com/pujaraamen/autotest1.git'
+                git 'https://github.com/pujaraamen/project1.git'
             }
         }
 
